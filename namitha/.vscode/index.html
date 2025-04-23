@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Namitha!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Photo Slider Section -->
+    <div class="slider-container">
+      <div class="slider">
+        <img src="baby.jpg" alt="Happy Birthday Image 1">
+      </div>
+    </div>
+
+    <!-- Happy Birthday Text -->
+    <h1>🎂 Happy Birthday,Namitha! 🎉</h1>
+    <p>My Baby doll... My Chomuuu..😘
+      <br><b style="color: cadetblue;">SWEET HEARTED</b><br>Ivatth Adru Suite Haiko Plz... nangoskara
+    </p>
+
+    <!-- Audio Player -->
+    <audio autoplay loop  id="myAudio" src="birthday.mp3"></audio>
+
+    <button onclick="playAudio()">Play</button>
+    
+    <script>
+      const audio = document.getElementById("myAudio");
+    
+      function playAudio() {
+        audio.play();
+      }
+      
+    </script>
+    
+  </div>
+</body>
+</html>

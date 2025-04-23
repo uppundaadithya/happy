@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: pink;
+    background:url('rotrte.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 18px; /* Increased base font size */
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70%;
+  }
+  a{
+    display: inline-block;
+    padding: 12px 24px; /* Larger padding for better usability */
+    background: linear-gradient(135deg, #a3fca9, #e3ffe5); /* Darker on hover */
+    color: rgb(61, 18, 18);
+    text-decoration: none;
+    border-radius: 8px; /* Softer edges */
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+    box-shadow: 2px 4px 10px rgba(76, 175, 80, 0.4); /* Subtle shadow */
+    text-align: center;
+  }
+  span{
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace ;
+  }
